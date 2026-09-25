@@ -25,3 +25,10 @@ docker logs -f <container>
 ```bash
 ocker inspect ContainerName --format '{{range .Config.Env}}{{println .}}{{end}}'
 ```
+
+
+## CONNECTION  
+**from docker to host**
+```bash
+host.docker.internal
+```
