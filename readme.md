@@ -32,3 +32,10 @@ ocker inspect ContainerName --format '{{range .Config.Env}}{{println .}}{{end}}'
 ```bash
 host.docker.internal
 ```
+
+
+## STATS  
+**docker container stats**
+```bash
+docker stats
+```
